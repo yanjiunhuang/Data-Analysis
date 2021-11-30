@@ -1,0 +1,43 @@
+---
+title: "Group Assignment"
+author: "Nguyen Tham, Rong-Wei Li, Samantha Huang, Wan-Yi Liao"
+date: "11/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Select the Data
+
+
+### Article name
+#### [Pest control of aphids depends on landscape complexity and natural enemy interactions](https://peerj.com/articles/1095/)
+
+### Data Source
+#### [Data](https://datadryad.org/stash/dataset/doi:10.5061/dryad.n6428)
+
+# Define the Objectives
+1. The effects of landscape complexity to aphid population.
+2. Aphid population growth control by enemy guilds in different landscape complexity.
+
+
+# Main Hypothesis
+Base on the article, our group would focus on below hypothesis:
+
+1. Different natural enemy compositions have different effects on aphid population growth and yields
+2. Natural enemy has positive density-dependence relationship to the aphid population growth
+
+# Analyses Needed or Intended
+1. Aphid population growth was modelled using a linear mixed model in package nlme
+2. Parasitism rates (the ratio of parasitized to all aphids) and syrphid fractions (the ratio of syrphids to total aphids + syrphids) were modelled using a binomial response with logit link in package lme4
+3. Crop biomass (n = 432 plants) was modelled using a Gamma error with log link in package lme4
+
+
+
+
+
+
+
+
